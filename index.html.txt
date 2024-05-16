@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Светлана - Веб-дизайнер и Художник</title>
+<style>
+body {
+font-family: 'Arial', sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f9;
+color: #333;
+}
+header {
+background-color: #4a90e2;
+color: white;
+padding: 20px 0;
+text-align: center;
+}
+header h1 {
+margin: 0;
+font-size: 2.5em;
+}
+header p {
+margin: 0;
+font-size: 1.2em;
+}
+section {
+padding: 40px 20px;
+}
+.portfolio, .achievements {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.portfolio-item, .achievement-item {
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+margin: 10px;
+padding: 20px;
+width: 300px;
+transition: transform 0.3s;
+}
+.portfolio-item:hover, .achievement-item:hover {
+transform: translateY(-10px);
+}
+.portfolio-item img {
+width: 100%;
+border-radius: 8px;
+}
+footer {
+background-color: #4a90e2;
+color: white;
+text-align: center;
+padding: 10px 0;
+position: fixed;
+width: 100%;
+bottom: 0;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Светлана</h1>
+<p>Веб-дизайнер и Художник из Украины</p>
+</header>
+
+<section>
+<h2>Портфолио</h2>
+<div class="portfolio">
+<div class="portfolio-item">
+<img src="https://via.placeholder.com/300" alt="Project 1">
+<h3>Проект 1</h3>
+<p>Описание проекта 1.</p>
+</div>
+<div class="portfolio-item">
+<img src="https://via.placeholder.com/300" alt="Project 2">
+<h3>Проект 2</h3>
+<p>Описание проекта 2.</p>
+</div>
+<!-- Добавьте больше элементов портфолио здесь -->
+</div>
+</section>
+
+<section>
+<h2>Достижения</h2>
+<div class="achievements">
+<div class="achievement-item">
+<h3>Достижение 1</h3>
+<p>Описание достижения 1.</p>
+</div>
+<div class="achievement-item">
+<h3>Достижение 2</h3>
+<p>Описание достижения 2.</p>
+</div>
+<!-- Добавьте больше элементов достижений здесь -->
+</div>
+</section>
+
+<footer>
+<p>© 2024 Светлана. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
+
+
+
